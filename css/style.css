@@ -35,7 +35,7 @@ h6 {
   margin: 0; }
 
 h1 {
-  font-size: 40px;
+  font-size: 32px;
   font-weight: 400;
   text-align: center;
   margin: 1rem; }
@@ -782,6 +782,12 @@ aside {
 
 .content__technology tbody tr:nth-child(odd) {
   background-color: #eeeeee; }
+
+.publicationDate {
+  font-style: italic;
+  display: block;
+  text-align: right;
+  margin: 1rem 0 1rem 0; }
 
 @media (min-width: 769px) {
   html[lang="ru"] .content p {
