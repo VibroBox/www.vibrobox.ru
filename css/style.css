@@ -72,6 +72,10 @@ a {
     .preface {
       font-size: 18px; } }
 
+.menu__link--login, label[for="menu__trigger"], .actionButton {
+  border-radius: 0.5em;
+  padding: 0.7em 1em; }
+
 @media print {
   .no-print, .no-print * {
     display: none !important; } }
@@ -208,11 +212,9 @@ label[for="menu__trigger"] {
     label[for="menu__trigger"] {
       display: block; } }
 
-.feedback {
-  display: none;
+aside {
   position: fixed;
-  padding: 0.2rem 0.5rem 0.1rem 0.5rem;
-  top: 60%;
+  top: 60vh;
   right: 0%;
   transform: rotate(-90deg);
   -moz-transform: rotate(270deg);
@@ -224,18 +226,36 @@ label[for="menu__trigger"] {
   -o-transform-origin: 100% 100%;
   -webkit-transform-origin: 100% 100%;
   -ms-transform-origin: 100% 100%;
+  z-index: 999; }
+  @media (max-width: 992px) {
+    aside {
+      top: 80vh; } }
+
+.feedback {
+  display: none;
+  padding: 0.2rem 0.5rem 0.1rem 0.5rem;
   font-weight: bold;
   font-family: Helvetica, Roboto, Arial, Sans-Serif;
   color: #fff;
   background-color: #d1d1d1;
-  border-radius: 5px 5px 0 0;
-  z-index: 999; }
+  border-radius: 5px 5px 0 0; }
   .feedback:hover {
     text-decoration: none;
     color: #0188c9; }
   @media (min-width: 993px) {
     .feedback {
-      display: block; } }
+      display: inline; } }
+
+.jumpToTOC {
+  padding: 0 0.5rem 0 0.5rem;
+  font-weight: bold;
+  font-family: Helvetica, Roboto, Arial, Sans-Serif;
+  color: #fff;
+  background-color: #d1d1d1;
+  border-radius: 5px 5px 0 0; }
+  .jumpToTOC:hover {
+    color: #0188c9;
+    text-decoration: none; }
 
 .preface--contacts {
   margin: 1rem; }
@@ -313,18 +333,17 @@ label[for="menu__trigger"] {
 .preface {
   margin: 1rem; }
 
-.action-button {
+.actionButton {
   margin: 1rem;
   font-size: 16px;
   font-weight: 500;
-  padding: 1rem 1.5rem;
   text-transform: uppercase;
   background-color: #0188c9;
   color: #fff;
   display: inline-block;
   text-decoration: none;
   border: 1px solid #0188c9; }
-  .action-button:hover {
+  .actionButton:hover {
     background-color: #fff;
     color: #0188c9; }
 
