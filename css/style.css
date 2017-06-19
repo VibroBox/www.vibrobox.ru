@@ -734,6 +734,12 @@ aside {
   flex-wrap: wrap;
   -webkit-flex-wrap: wrap; }
 
+.content__publications {
+  padding: 0 2px; }
+  .content__publications p {
+    font-weight: bold;
+    text-align: center; }
+
 .team-member {
   width: 100%;
   padding: 0.5rem 1rem;
