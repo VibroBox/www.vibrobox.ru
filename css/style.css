@@ -66,7 +66,7 @@ a {
       padding-right: 8px; } }
 
 .preface {
-  font-size: 24px;
+  font-size: 20px;
   text-align: center; }
   @media (max-width: 768px) {
     .preface {
@@ -443,6 +443,21 @@ aside {
 
 .separator {
   box-shadow: 0 4px 6px -6px #008dd0; }
+
+@media (min-width: 993px) {
+  .preface--home {
+    margin-left: 20%;
+    margin-right: 20%; } }
+
+@media (max-width: 425px) {
+  .preface--home {
+    text-align: left; } }
+
+.preface--home em {
+  color: lightgray; }
+
+.preface--home p {
+  margin-top: 0.5em; }
 
 .plus-container {
   margin-top: 3rem;
