@@ -600,6 +600,15 @@ aside {
     .system-container__u-report:after {
       display: none; }
 
+html[lang=ru] .system-container__equipment {
+  bottom: 10.5%; }
+
+html[lang=ru] .system-container__u-report {
+  bottom: 10.5%; }
+
+html[lang=ru] .system-container__g-report:after {
+  top: 100%; }
+
 @media (max-width: 1199px) {
   .system-container {
     background-position: 20% 45%;
