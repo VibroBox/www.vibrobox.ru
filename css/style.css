@@ -688,7 +688,15 @@ html[lang=ru] .system-container__g-report:after {
       max-width: 40%;
       top: 0; }
       .system-container__u-report:after {
-        display: none; } }
+        display: none; }
+  html[lang=ru] .system-container__item {
+    min-height: 310px; }
+  html[lang=ru] .system-container__equipment {
+    bottom: 15.5%; }
+  html[lang=ru] .system-container__u-report {
+    bottom: 15.5%; }
+  html[lang=ru] .system-container__g-report:after {
+    top: 35%; } }
 
 @media (max-width: 768px) {
   .system-container {
@@ -759,7 +767,13 @@ html[lang=ru] .system-container__g-report:after {
         transform: rotate(0);
         width: 17px; }
     .system-container__u-report {
-      max-width: none; } }
+      max-width: none; }
+  html[lang=ru] .system-container__equipment {
+    bottom: 15.5%; }
+  html[lang=ru] .system-container__u-report {
+    bottom: 15.5%; }
+  html[lang=ru] .system-container__g-report:after {
+    top: auto; } }
 
 .team-container {
   padding-top: 3rem;
