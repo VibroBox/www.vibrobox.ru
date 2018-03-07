@@ -524,10 +524,16 @@ aside {
     list-style: none; }
     .news__section ul a {
       font-style: italic; }
+    .news__section ul li {
+      margin-bottom: 0.5rem; }
 
 .newsDate {
-  margin-right: 1em;
-  text-decoration: underline; }
+  text-decoration: underline;
+  width: 125px;
+  display: inline-block; }
+  @media (max-width: 768px) {
+    .newsDate {
+      width: 120px; } }
 
 .plus-container {
   margin-top: 3rem;
@@ -996,6 +1002,14 @@ html[lang=ru] .system-container__g-report:after {
   .content table {
     table-layout: fixed;
     width: 100%; }
+
+@media (min-width: 769px) {
+  .content-news img {
+    max-width: 70%;
+    max-height: 70%; } }
+
+.news-list li {
+  margin-bottom: 0.5rem; }
 
 .numberedSublist ol {
   list-style-type: none;
