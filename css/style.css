@@ -594,7 +594,11 @@ aside {
     list-style: none;
     font-style: italic; }
     .news__section ul li {
-      margin-bottom: 0.2rem; }
+      margin-bottom: 0.2rem;
+      display: table-row; }
+      .news__section ul li span,
+      .news__section ul li a {
+        display: table-cell; }
 
 .newsDate {
   min-width: 9rem;
