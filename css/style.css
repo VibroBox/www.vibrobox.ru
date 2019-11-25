@@ -1033,7 +1033,12 @@ html[lang="ru"] .system-container__g-report:after {
       -moz-hyphens: auto;
       -ms-hyphens: auto;
       hyphens: auto;
-      text-align: justify; } }
+      text-align: justify; }
+      .content > p a {
+        -webkit-hyphens: none;
+        -moz-hyphens: none;
+        -ms-hyphens: none;
+        hyphens: none; } }
   .content h2 {
     margin: 2rem 0;
     text-align: center; }
