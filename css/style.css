@@ -593,7 +593,8 @@ aside {
   border-bottom: 1px solid #6b6e70;
   font-size: 0.85rem; }
   .news__section ul {
-    list-style: none; }
+    list-style: none;
+    padding-left: 0; }
     .news__section ul li {
       margin-bottom: 0.2rem; }
       @media (min-width: 769px) {
@@ -609,6 +610,9 @@ aside {
   @media (max-width: 768px) {
     .newsDate {
       min-width: initial; } }
+
+.content-news figure {
+  margin-bottom: 0.5rem !important; }
 
 .plus-container {
   margin-top: 3rem;
@@ -1116,9 +1120,6 @@ html[lang="ru"] .system-container__g-report:after {
     width: 100%;
     height: 100%;
     border: 0; }
-
-.news-list li {
-  margin-bottom: 0.5rem; }
 
 .numberedSublist ol {
   list-style-type: none;
